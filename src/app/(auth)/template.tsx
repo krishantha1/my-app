@@ -27,7 +27,7 @@ export default function AuthLayout({ children }: { children: React.ReactNode }) 
          const isActive = pathname === link.href || (pathname.startsWith(link.href) && link.href !== "/");
 
           return(
-               <Link className= {isActive ? "font-bold mr-5": "text-green-500 mr-4"} 
+               <Link className= {isActive ? "font-bold mr-5": "text-blue-500 mr-4"} 
                  href={link.href} key={link.name}>
             {link.name}
             </Link>
