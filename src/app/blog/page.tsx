@@ -1,6 +1,6 @@
 
 import { Metadata } from "next";
-import { resolve } from "path";
+
 export const metadata:Metadata={
     title:{
         absolute:"Blog",
